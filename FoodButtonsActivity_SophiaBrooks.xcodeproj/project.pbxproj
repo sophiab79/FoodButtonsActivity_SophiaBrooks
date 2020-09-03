@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC801292501B4A400C0CA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC801282501B4A400C0CA1A /* AppDelegate.swift */; };
+		ECC8012B2501B4A400C0CA1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8012A2501B4A400C0CA1A /* SceneDelegate.swift */; };
+		ECC8012D2501B4A400C0CA1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8012C2501B4A400C0CA1A /* ViewController.swift */; };
+		ECC801302501B4A400C0CA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC8012E2501B4A400C0CA1A /* Main.storyboard */; };
+		ECC801322501B4AB00C0CA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC801312501B4AB00C0CA1A /* Assets.xcassets */; };
+		ECC801352501B4AB00C0CA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC801332501B4AB00C0CA1A /* LaunchScreen.storyboard */; };
+		ECC801402501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8013F2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksTests.swift */; };
+		ECC8014B2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8014A2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC8013C2501B4AD00C0CA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC8011D2501B4A400C0CA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC801242501B4A400C0CA1A;
+			remoteInfo = FoodButtonsActivity_SophiaBrooks;
+		};
+		ECC801472501B4AD00C0CA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC8011D2501B4A400C0CA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC801242501B4A400C0CA1A;
+			remoteInfo = FoodButtonsActivity_SophiaBrooks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC801252501B4A400C0CA1A /* FoodButtonsActivity_SophiaBrooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodButtonsActivity_SophiaBrooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC801282501B4A400C0CA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECC8012A2501B4A400C0CA1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECC8012C2501B4A400C0CA1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECC8012F2501B4A400C0CA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC801312501B4AB00C0CA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC801342501B4AB00C0CA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC801362501B4AB00C0CA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC8013B2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodButtonsActivity_SophiaBrooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC8013F2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodButtonsActivity_SophiaBrooksTests.swift; sourceTree = "<group>"; };
+		ECC801412501B4AD00C0CA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC801462501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodButtonsActivity_SophiaBrooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC8014A2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodButtonsActivity_SophiaBrooksUITests.swift; sourceTree = "<group>"; };
+		ECC8014C2501B4AD00C0CA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC801222501B4A400C0CA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC801382501B4AD00C0CA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC801432501B4AD00C0CA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC8011C2501B4A400C0CA1A = {
+			isa = PBXGroup;
+			children = (
+				ECC801272501B4A400C0CA1A /* FoodButtonsActivity_SophiaBrooks */,
+				ECC8013E2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksTests */,
+				ECC801492501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksUITests */,
+				ECC801262501B4A400C0CA1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC801262501B4A400C0CA1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC801252501B4A400C0CA1A /* FoodButtonsActivity_SophiaBrooks.app */,
+				ECC8013B2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksTests.xctest */,
+				ECC801462501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC801272501B4A400C0CA1A /* FoodButtonsActivity_SophiaBrooks */ = {
+			isa = PBXGroup;
+			children = (
+				ECC801282501B4A400C0CA1A /* AppDelegate.swift */,
+				ECC8012A2501B4A400C0CA1A /* SceneDelegate.swift */,
+				ECC8012C2501B4A400C0CA1A /* ViewController.swift */,
+				ECC8012E2501B4A400C0CA1A /* Main.storyboard */,
+				ECC801312501B4AB00C0CA1A /* Assets.xcassets */,
+				ECC801332501B4AB00C0CA1A /* LaunchScreen.storyboard */,
+				ECC801362501B4AB00C0CA1A /* Info.plist */,
+			);
+			path = FoodButtonsActivity_SophiaBrooks;
+			sourceTree = "<group>";
+		};
+		ECC8013E2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC8013F2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksTests.swift */,
+				ECC801412501B4AD00C0CA1A /* Info.plist */,
+			);
+			path = FoodButtonsActivity_SophiaBrooksTests;
+			sourceTree = "<group>";
+		};
+		ECC801492501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC8014A2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksUITests.swift */,
+				ECC8014C2501B4AD00C0CA1A /* Info.plist */,
+			);
+			path = FoodButtonsActivity_SophiaBrooksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC801242501B4A400C0CA1A /* FoodButtonsActivity_SophiaBrooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC8014F2501B4AD00C0CA1A /* Build configuration list for PBXNativeTarget "FoodButtonsActivity_SophiaBrooks" */;
+			buildPhases = (
+				ECC801212501B4A400C0CA1A /* Sources */,
+				ECC801222501B4A400C0CA1A /* Frameworks */,
+				ECC801232501B4A400C0CA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodButtonsActivity_SophiaBrooks;
+			productName = FoodButtonsActivity_SophiaBrooks;
+			productReference = ECC801252501B4A400C0CA1A /* FoodButtonsActivity_SophiaBrooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC8013A2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC801522501B4AD00C0CA1A /* Build configuration list for PBXNativeTarget "FoodButtonsActivity_SophiaBrooksTests" */;
+			buildPhases = (
+				ECC801372501B4AD00C0CA1A /* Sources */,
+				ECC801382501B4AD00C0CA1A /* Frameworks */,
+				ECC801392501B4AD00C0CA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC8013D2501B4AD00C0CA1A /* PBXTargetDependency */,
+			);
+			name = FoodButtonsActivity_SophiaBrooksTests;
+			productName = FoodButtonsActivity_SophiaBrooksTests;
+			productReference = ECC8013B2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECC801452501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC801552501B4AD00C0CA1A /* Build configuration list for PBXNativeTarget "FoodButtonsActivity_SophiaBrooksUITests" */;
+			buildPhases = (
+				ECC801422501B4AD00C0CA1A /* Sources */,
+				ECC801432501B4AD00C0CA1A /* Frameworks */,
+				ECC801442501B4AD00C0CA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC801482501B4AD00C0CA1A /* PBXTargetDependency */,
+			);
+			name = FoodButtonsActivity_SophiaBrooksUITests;
+			productName = FoodButtonsActivity_SophiaBrooksUITests;
+			productReference = ECC801462501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC8011D2501B4A400C0CA1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Sophia;
+				TargetAttributes = {
+					ECC801242501B4A400C0CA1A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					ECC8013A2501B4AD00C0CA1A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = ECC801242501B4A400C0CA1A;
+					};
+					ECC801452501B4AD00C0CA1A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = ECC801242501B4A400C0CA1A;
+					};
+				};
+			};
+			buildConfigurationList = ECC801202501B4A400C0CA1A /* Build configuration list for PBXProject "FoodButtonsActivity_SophiaBrooks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC8011C2501B4A400C0CA1A;
+			productRefGroup = ECC801262501B4A400C0CA1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC801242501B4A400C0CA1A /* FoodButtonsActivity_SophiaBrooks */,
+				ECC8013A2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksTests */,
+				ECC801452501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC801232501B4A400C0CA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC801352501B4AB00C0CA1A /* LaunchScreen.storyboard in Resources */,
+				ECC801322501B4AB00C0CA1A /* Assets.xcassets in Resources */,
+				ECC801302501B4A400C0CA1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC801392501B4AD00C0CA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC801442501B4AD00C0CA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC801212501B4A400C0CA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC8012D2501B4A400C0CA1A /* ViewController.swift in Sources */,
+				ECC801292501B4A400C0CA1A /* AppDelegate.swift in Sources */,
+				ECC8012B2501B4A400C0CA1A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC801372501B4AD00C0CA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC801402501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC801422501B4AD00C0CA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC8014B2501B4AD00C0CA1A /* FoodButtonsActivity_SophiaBrooksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC8013D2501B4AD00C0CA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC801242501B4A400C0CA1A /* FoodButtonsActivity_SophiaBrooks */;
+			targetProxy = ECC8013C2501B4AD00C0CA1A /* PBXContainerItemProxy */;
+		};
+		ECC801482501B4AD00C0CA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC801242501B4A400C0CA1A /* FoodButtonsActivity_SophiaBrooks */;
+			targetProxy = ECC801472501B4AD00C0CA1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC8012E2501B4A400C0CA1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC8012F2501B4A400C0CA1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC801332501B4AB00C0CA1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC801342501B4AB00C0CA1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC8014D2501B4AD00C0CA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECC8014E2501B4AD00C0CA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC801502501B4AD00C0CA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodButtonsActivity_SophiaBrooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.FoodButtonsActivity-SophiaBrooks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC801512501B4AD00C0CA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodButtonsActivity_SophiaBrooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.FoodButtonsActivity-SophiaBrooks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECC801532501B4AD00C0CA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodButtonsActivity_SophiaBrooksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.FoodButtonsActivity-SophiaBrooksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodButtonsActivity_SophiaBrooks.app/FoodButtonsActivity_SophiaBrooks";
+			};
+			name = Debug;
+		};
+		ECC801542501B4AD00C0CA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodButtonsActivity_SophiaBrooksTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.FoodButtonsActivity-SophiaBrooksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodButtonsActivity_SophiaBrooks.app/FoodButtonsActivity_SophiaBrooks";
+			};
+			name = Release;
+		};
+		ECC801562501B4AD00C0CA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodButtonsActivity_SophiaBrooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.FoodButtonsActivity-SophiaBrooksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodButtonsActivity_SophiaBrooks;
+			};
+			name = Debug;
+		};
+		ECC801572501B4AD00C0CA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodButtonsActivity_SophiaBrooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SB.FoodButtonsActivity-SophiaBrooksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodButtonsActivity_SophiaBrooks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC801202501B4A400C0CA1A /* Build configuration list for PBXProject "FoodButtonsActivity_SophiaBrooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC8014D2501B4AD00C0CA1A /* Debug */,
+				ECC8014E2501B4AD00C0CA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC8014F2501B4AD00C0CA1A /* Build configuration list for PBXNativeTarget "FoodButtonsActivity_SophiaBrooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC801502501B4AD00C0CA1A /* Debug */,
+				ECC801512501B4AD00C0CA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC801522501B4AD00C0CA1A /* Build configuration list for PBXNativeTarget "FoodButtonsActivity_SophiaBrooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC801532501B4AD00C0CA1A /* Debug */,
+				ECC801542501B4AD00C0CA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC801552501B4AD00C0CA1A /* Build configuration list for PBXNativeTarget "FoodButtonsActivity_SophiaBrooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC801562501B4AD00C0CA1A /* Debug */,
+				ECC801572501B4AD00C0CA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC8011D2501B4A400C0CA1A /* Project object */;
+}
