@@ -9,7 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var foodpriceLabel: UILabel!
+    
+    @IBOutlet weak var messageLabel: UILabel!
+    
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,15 +23,27 @@ class ViewController: UIViewController {
     }
 
     @IBAction func orderpizzaButton(_ sender: UIButton) {
-    print("🍕 Price: $19.99")
+        messageLabel.text = "🍕 Price: $19.99"
+        
+        imageView.image = UIImage(named: "pizza")
+        
+        
+        //print("🍕 Price: $19.99")
     
-        foodpriceLabel.text = "🍕 Price: $19.99"
+       // foodpriceLabel.text = "🍕 Price: $19.99"
     }
     
     @IBAction func orderburgerButton(_ sender: UIButton) {
-    print("🍔 Price: $15.99")
+    
+        messageLabel.text = "🍔 Price: $15.99"
+        
+        imageView.image = UIImage(named: "hamburger")
+        
+        
+        
+        //print("🍔 Price: $15.99")
      
-    foodpriceLabel.text = "🍔 Price: $15.99"
+   // foodpriceLabel.text = "🍔 Price: $15.99"
         
     }
     
